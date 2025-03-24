@@ -62,12 +62,12 @@ h1 {
 }
 
 .front {
-    background-color: #acb8ff;
+    background-image: url(img/back.png);
     transform: rotateY(0);
 }
 
 .back {
-    background-color: #3a912f;
+    background-image: url(img/front.png);
     transform: rotateY(-180deg);
 }
 
@@ -80,17 +80,21 @@ h1 {
     height: 15px;
     width: 15px;
     position: absolute;
-    background: #f3e4b5;
+    background: #e6d296;
     animation: sparkle 3s infinite ease-in-out alternate;
     mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000%/99.5% 99.5%;
 }
 
 .star:nth-child(1) { width: 15px; height: 15px; top: 5%; left: 5%; animation-delay: 0s;}
 .star:nth-child(2) { width: 15px; height: 15px; top: 10%; left: 30%; animation-delay: 2s;}
-.star:nth-child(3) { width: 20px; height: 20px; top: 30%; left: 10%; animation-delay: 2s;}
+.star:nth-child(3) { width: 20px; height: 20px; top: 30%; left: 85%; animation-delay: 2s;}
 .star:nth-child(4) { width: 10px; height: 10px; top: 50%; left: 15%; animation-delay: 3s;}
 .star:nth-child(5) { width: 15px; height: 15px; top: 70%; left: 80%; animation-delay: 2s;}
 .star:nth-child(6) { width: 15px; height: 15px; top: 80%; left: 15%; animation-delay: 2s;}
+.star:nth-child(7) { width: 20px; height: 20px; top: 90%; left: 20%; animation-delay: 2s;}
+.star:nth-child(8) { width: 20px; height: 15px; top: 10%; left: 75%; animation-delay: 2s;}
+.star:nth-child(9) { width: 15px; height: 15px; top: 40%; left: 30%; animation-delay: 2s;}
+.star:nth-child(10) { width: 30px; height: 30px; top: 25%; left: 60%; animation-delay: 2s;}
 
 
 @keyframes sparkle {
